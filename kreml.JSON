@@ -1,0 +1,276 @@
+[
+ {
+ "name": "1.1.10.19.0.courts_of_appeal_and_sentencing",
+"size":      1,
+"imports": [
+ "1.1.10.19.0.prokurator",
+"1.1.1.20.0.Katyn_smolensk_repressions_and_rehabilitation" 
+] 
+},
+{
+ "name": "1.1.10.19.0.prokurator",
+"size":      3,
+"imports": [
+ "1.1.10.19.0.courts_of_appeal_and_sentencing",
+"1.1.1.20.0.Katyn_smolensk_repressions_and_rehabilitation",
+"1.3.4.18.0.memory_of_war_genocide_and_nazism" 
+] 
+},
+{
+ "name": "1.1.1.1.0.war_veterans",
+"size":      6,
+"imports": [
+ "1.1.1.6.0.rights_infringements_rule_of_law",
+"1.3.8.11.0.questions_of_authenticity_and_scandal" 
+] 
+},
+{
+ "name": "1.1.1.6.0.rights_infringements_rule_of_law",
+"size":      8,
+"imports": [
+ "1.1.1.1.0.war_veterans",
+"1.1.1.20.0.Katyn_smolensk_repressions_and_rehabilitation" 
+] 
+},
+{
+ "name": "1.1.1.20.0.Katyn_smolensk_repressions_and_rehabilitation",
+"size":     10,
+"imports": [
+ "1.1.10.19.0.courts_of_appeal_and_sentencing",
+"1.1.10.19.0.prokurator",
+"1.1.1.6.0.rights_infringements_rule_of_law",
+"1.1.1.4.0.passport_and_right_of_residency_legal_documents" 
+] 
+},
+{
+ "name": "1.1.1.4.0.passport_and_right_of_residency_legal_documents",
+"size":     14,
+"imports": [
+ "1.1.1.20.0.Katyn_smolensk_repressions_and_rehabilitation",
+"1.1.1.4.0.president_speaks_to_the_people",
+"1.2.2.2.0.presidential_decrees_and_actions" 
+] 
+},
+{
+ "name": "1.1.1.4.0.president_speaks_to_the_people",
+"size":     17,
+"imports": [
+ "1.1.1.4.0.passport_and_right_of_residency_legal_documents" 
+] 
+},
+{
+ "name": "1.2.2.2.0.presidential_decrees_and_actions",
+"size":     18,
+"imports": [
+ "1.1.1.4.0.passport_and_right_of_residency_legal_documents",
+"1.2.2.2.0.ratification_of_agreements",
+"1.2.7.10.0.plane_crash" 
+] 
+},
+{
+ "name": "1.2.2.2.0.ratification_of_agreements",
+"size":     21,
+"imports": [
+ "1.2.2.2.0.presidential_decrees_and_actions" 
+] 
+},
+{
+ "name": "1.2.7.10.0.plane_crash",
+"size":     22,
+"imports": [
+ "1.2.7.10.0.plane_crash",
+"1.2.2.2.0.presidential_decrees_and_actions",
+"1.2.7.10.0.plane_crash" 
+] 
+},
+{
+ "name": "1.2.3.3.0.state_visists_and_talks",
+"size":     25,
+"imports": [
+ "1.2.3.3.0.sites_of_memory_eg_graveyards_Remains",
+"1.3.8.11.0.presidential_succession_elite_interests" 
+] 
+},
+{
+ "name": "1.2.3.3.0.sites_of_memory_eg_graveyards_Remains",
+"size":     27,
+"imports": [
+ "1.2.3.3.0.state_visists_and_talks" 
+] 
+},
+{
+ "name": "1.3.8.11.0.questions_of_authenticity_and_scandal",
+"size":     28,
+"imports": [
+ "1.1.1.1.0.war_veterans",
+"1.3.8.11.0.presidential_succession_elite_interests",
+"1.3.4.18.0.memory_of_war_genocide_and_nazism" 
+] 
+},
+{
+ "name": "1.3.8.11.0.presidential_succession_elite_interests",
+"size":     31,
+"imports": [
+ "1.2.3.3.0.state_visists_and_talks",
+"1.3.8.11.0.questions_of_authenticity_and_scandal" 
+] 
+},
+{
+ "name": "1.3.9.13.0.tsarist_history",
+"size":     33,
+"imports": [
+ "1.3.9.13.0.state-society_cultural_relations" 
+] 
+},
+{
+ "name": "1.3.9.13.0.state-society_cultural_relations",
+"size":     34,
+"imports": [
+ "1.3.9.13.0.tsarist_history",
+"1.3.4.12.0.duma_deputies" 
+] 
+},
+{
+ "name": "1.3.4.5.0.language_of_analysis_and_reason",
+"size":     36,
+"imports": [
+ "1.3.4.5.0.language_of_announcements_oral_testimony" 
+] 
+},
+{
+ "name": "1.3.4.5.0.language_of_announcements_oral_testimony",
+"size":     37,
+"imports": [
+ "1.3.4.5.0.language_of_analysis_and_reason",
+"2.4.5.7.0.the_government_movers_and_shakers" 
+] 
+},
+{
+ "name": "1.3.4.18.0.memory_of_war_genocide_and_nazism",
+"size":     39,
+"imports": [
+ "1.1.10.19.0.prokurator",
+"1.3.8.11.0.questions_of_authenticity_and_scandal" 
+] 
+},
+{
+ "name": "1.3.4.12.0.duma_deputies",
+"size":     41,
+"imports": [
+ "1.3.9.13.0.state-society_cultural_relations" 
+] 
+},
+{
+ "name": "1.3.4.17.0.the_narod_and_power",
+"size":     42,
+"imports": [
+ "2.5.6.8.0.culture_and_civilisation" 
+] 
+},
+{
+ "name": "2.5.6.16.0.language_of_film-making",
+"size":     43,
+"imports": [
+ "2.5.6.8.0.stories_and_plots_love_and_heroes",
+"2.5.6.8.0.culture_and_civilisation" 
+] 
+},
+{
+ "name": "2.5.6.15.0.film_and_cinema_festivals",
+"size":     45,
+"imports": [
+ "2.5.6.8.0.stories_and_plots_love_and_heroes",
+"2.5.6.8.0.body_and_soul",
+"2.5.6.8.0.culture_and_civilisation",
+"2.4.5.14.0.internation_cooperation_development_agreement" 
+] 
+},
+{
+ "name": "2.5.6.8.0.stories_and_plots_love_and_heroes",
+"size":     49,
+"imports": [
+ "2.5.6.16.0.language_of_film-making",
+"2.5.6.15.0.film_and_cinema_festivals",
+"2.5.6.8.0.culture_and_civilisation" 
+] 
+},
+{
+ "name": "2.5.6.8.0.body_and_soul",
+"size":     52,
+"imports": [
+ "2.5.6.15.0.film_and_cinema_festivals",
+"2.5.6.8.0.culture_and_civilisation",
+"2.4.5.9.0.Kremlin_elites_and_Western_democracy" 
+] 
+},
+{
+ "name": "2.5.6.8.0.culture_and_civilisation",
+"size":     55,
+"imports": [
+ "1.3.4.17.0.the_narod_and_power",
+"2.5.6.16.0.language_of_film-making",
+"2.5.6.15.0.film_and_cinema_festivals",
+"2.5.6.8.0.stories_and_plots_love_and_heroes",
+"2.5.6.8.0.body_and_soul",
+"2.4.5.9.0.Kremlin_elites_and_Western_democracy" 
+] 
+},
+{
+ "name": "2.4.5.9.0.Kremlin_elites_and_Western_democracy",
+"size":     61,
+"imports": [
+ "2.5.6.8.0.body_and_soul",
+"2.5.6.8.0.culture_and_civilisation",
+"2.4.5.14.0.internation_cooperation_development_agreement",
+"2.4.5.14.0.international_relations_interests_and_influence",
+"2.4.5.7.0.the_electorate_electoral_support_victory" 
+] 
+},
+{
+ "name": "2.4.5.9.0.war_and_conflict_aggression",
+"size":     66,
+"imports": [
+ "2.4.5.14.0.international_relations_interests_and_influence" 
+] 
+},
+{
+ "name": "2.4.5.14.0.internation_cooperation_development_agreement",
+"size":     67,
+"imports": [
+ "2.5.6.15.0.film_and_cinema_festivals",
+"2.4.5.9.0.Kremlin_elites_and_Western_democracy",
+"2.4.5.14.0.international_relations_interests_and_influence",
+"2.4.5.7.0.the_electorate_electoral_support_victory" 
+] 
+},
+{
+ "name": "2.4.5.14.0.international_relations_interests_and_influence",
+"size":     71,
+"imports": [
+ "2.4.5.9.0.Kremlin_elites_and_Western_democracy",
+"2.4.5.9.0.war_and_conflict_aggression",
+"2.4.5.14.0.internation_cooperation_development_agreement",
+"2.4.5.7.0.the_electorate_electoral_support_victory",
+"2.4.5.7.0.the_government_movers_and_shakers" 
+] 
+},
+{
+ "name": "2.4.5.7.0.the_electorate_electoral_support_victory",
+"size":     76,
+"imports": [
+ "2.4.5.9.0.Kremlin_elites_and_Western_democracy",
+"2.4.5.14.0.internation_cooperation_development_agreement",
+"2.4.5.14.0.international_relations_interests_and_influence",
+"2.4.5.7.0.the_government_movers_and_shakers" 
+] 
+},
+{
+ "name": "2.4.5.7.0.the_government_movers_and_shakers",
+"size":     80,
+"imports": [
+ "1.3.4.5.0.language_of_announcements_oral_testimony",
+"2.4.5.14.0.international_relations_interests_and_influence",
+"2.4.5.7.0.the_electorate_electoral_support_victory" 
+] 
+} 
+]
